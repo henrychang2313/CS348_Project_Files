@@ -1,0 +1,171 @@
+.App {
+  text-align: center;
+  background-color: #727272; /* Soft background color for better contrast */
+  font-family: Arial, sans-serif; /* Consistent font throughout */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(56, 56, 56);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.app-container {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.app-title {
+  text-align: center;
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 25px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.form-section {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  min-width: 280px;
+}
+
+.styled-input, .styled-select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+.styled-button {
+  background-color: #c50c0c;
+  color: white;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.styled-button:hover {
+  background-color: #c50c0c;
+}
+
+.table-container {
+  margin-top: 30px;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1em;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.styled-table th, .styled-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #c50c0c;
+}
+
+.styled-table th {
+  background-color: #000000;
+  color: white;
+  font-weight: bold;
+}
+
+.styled-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.search-container {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.styled-search-input {
+  padding: 10px;
+  width: 50%;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.styled-search-button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.styled-search-button:hover {
+  background-color: #218838;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
